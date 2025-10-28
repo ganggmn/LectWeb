@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>다양한 입력 폼</h3>
+    <form method="get" action="form_app.js">
+        <input type="text" name="person"/>
+        <br>
+        <input type="radio" name="sex" value="male"/>
+        <input type="radio" name="sex" value="female"/>
+        
+        <select name="job" size="1">
+            <option>학생</option> <option>회사원</option>
+            <option>공무원</option> <option>기타</option>
+        </select>
+
+        <p>구입 희망 분야(복수선택 가능) 
+            <br>
+            <input type="checkbox" name="books" value="computer"/>
+            <input type="checkbox" name="books" value="economy"/>
+            <input type="checkbox" name="books" value="common"/>
+            <br>
+            <textarea name="comments" rows="4" cols="40"></textarea>
+            
+        </p>
+        <hr>
+        <input type="submit" value="신청"/>
+        <input type="reset" value="취소/">
+    </form>
+</body>
+</html>
